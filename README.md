@@ -1,8 +1,8 @@
+<h1 align="center">📊 Netflix Analytics Dashboard</h1>
+
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix Logo" width="200">
 </p>
-
-<h1 align="center">📊 Netflix Analytics Dashboard</h1>
 
 <p align="center">
   <strong>An interactive Tableau dashboard for exploring Netflix's global content library</strong>
