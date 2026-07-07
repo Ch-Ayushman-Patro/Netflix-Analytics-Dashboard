@@ -142,14 +142,14 @@ The dashboard is powered by `netflix_dataset.xlsx` containing **6,234 records** 
 ### Example Workflows
 
 ```
-📍Find top content by country:
-   Click on a country → View filtered genre & rating distributions
+Find top content by country:
+Click on a country → View filtered genre & rating distributions
 
-🎬 Explore a specific title:
-   Use Title filter → View complete details in the right panel
+Explore a specific title:
+Use Title filter → View complete details in the right panel
 
-📅 Analyze content trends:
-   Hover over timeline → See year-by-year breakdown
+Analyze content trends:
+Hover over timeline → See year-by-year breakdown
 ```
 
 ---
