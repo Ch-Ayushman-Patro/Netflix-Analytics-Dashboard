@@ -56,7 +56,7 @@
 
 ## Key Statistics
 
-<table align="center">
+<table>
   <tr>
     <td align="center"><h3>6,234</h3><p>Total Titles</p></td>
     <td align="center"><h3>4,265</h3><p>Movies</p></td>
