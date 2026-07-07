@@ -1,4 +1,4 @@
-<h1 align="center">📊 Netflix Analytics Dashboard</h1>
+<h1 align="center">Netflix Analytics Dashboard</h1>
 
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix Logo" width="200">
@@ -25,7 +25,7 @@
 
 ---
 
-## 📸 Dashboard Preview
+## Dashboard Preview
 
 <p align="center">
   <img src="netflix_dashboard.png" alt="Netflix Analytics Dashboard Preview" width="100%">
@@ -33,13 +33,13 @@
 
 ---
 
-## ✨ Features
+## Features
 
-### 🌍 Geographic Analysis
+### Geographic Analysis
 - **World Map Visualization** — Explore Netflix's content distribution across 190+ countries
 - Interactive country selection with real-time filtering
 
-### 📈 Content Insights
+### Content Insights
 | Visualization | Description |
 |---------------|-------------|
 | **Top 10 Genres** | Horizontal bar chart revealing the most popular content categories |
@@ -47,14 +47,14 @@
 | **Content Ratings** | Bar chart breakdown by rating (TV-MA, TV-14, PG-13, R, etc.) |
 | **Timeline Trends** | Stacked area chart showing content releases from 1925 to 2020 |
 
-### 🎬 Detailed Exploration
+### Detailed Exploration
 - **Title Search** — Find any specific movie or TV show instantly
 - **Details Panel** — View synopsis, release year, date added & duration
 - **Cross-filtering** — Click any chart element to filter the entire dashboard
 
 ---
 
-## 📊 Key Statistics
+## Key Statistics
 
 <table align="center">
   <tr>
@@ -65,7 +65,7 @@
   </tr>
 </table>
 
-### 🏆 Top Content Ratings
+### Top Content Ratings
 | Rating | Count |
 |--------|-------|
 | TV-MA | 2,027 |
@@ -74,7 +74,7 @@
 | R | 508 |
 | PG-13 | 286 |
 
-### 🎭 Top Genres
+### Top Genres
 1. **Documentaries** — 299 titles
 2. **Stand-Up Comedy** — 273 titles
 3. **Dramas, International Movies** — 248 titles
@@ -83,7 +83,7 @@
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -101,7 +101,7 @@
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 The dashboard is powered by `netflix_dataset.xlsx` containing **6,234 records** across **12 fields**:
 
@@ -120,11 +120,11 @@ The dashboard is powered by `netflix_dataset.xlsx` containing **6,234 records** 
 | `listed_in` | String | Genre categories |
 | `description` | String | Brief synopsis |
 
-> ⚠️ **Note:** Some fields like `director`, `cast`, `country`, and `date_added` may contain null values or be multi-valued (comma-separated).
+> **Note:** Some fields like `director`, `cast`, `country`, and `date_added` may contain null values or be multi-valued (comma-separated).
 
 ---
 
-## 🎯 Usage
+## Usage
 
 ### Interactive Filters
 
@@ -135,14 +135,14 @@ The dashboard is powered by `netflix_dataset.xlsx` containing **6,234 records** 
 
 ### Exploration Tips
 
-- 🖱️ **Hover** over any chart element for detailed tooltips
-- 🔗 **Click** on bars, countries, or areas to cross-filter all visualizations
-- 📎 **Export** insights via Tableau's Image/PDF/PowerPoint options
+- **Hover** over any chart element for detailed tooltips
+- **Click** on bars, countries, or areas to cross-filter all visualizations
+- **Export** insights via Tableau's Image/PDF/PowerPoint options
 
 ### Example Workflows
 
 ```
-📍 Find top content by country:
+📍Find top content by country:
    Click on a country → View filtered genre & rating distributions
 
 🎬 Explore a specific title:
@@ -154,7 +154,7 @@ The dashboard is powered by `netflix_dataset.xlsx` containing **6,234 records** 
 
 ---
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 <details>
 <summary><strong>❌ "Could not locate file / data source"</strong></summary>
@@ -165,33 +165,33 @@ When prompted, navigate to `netflix_dataset.xlsx` in the project folder.
 </details>
 
 <details>
-<summary><strong>🗺️ Map shows "Unknown" or missing countries</strong></summary>
+<summary><strong>Map shows "Unknown" or missing countries</strong></summary>
 
 Country values can be multi-valued (e.g., `United States, India`) or missing. Consider splitting/cleaning the `country` field for more precise geographic mapping.
 </details>
 
 <details>
-<summary><strong>📅 Dates display incorrectly</strong></summary>
+<summary><strong>Dates display incorrectly</strong></summary>
 
 Ensure `date_added` is interpreted as a date type. The workbook expects format: `MMMM d, yyyy` (e.g., "January 15, 2020").
 </details>
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 Netflix-Analytics-Dashboard/
 │
-├── 📊 netflix_dashboard.twb    # Tableau workbook (dashboard + worksheets)
-├── 📑 netflix_dataset.xlsx     # Source data (6,234 Netflix titles)
-├── 🖼️ netflix_dashboard.png    # Dashboard screenshot preview
-└── 📖 README.md                # Project documentation
+├── netflix_dashboard.twb    # Tableau workbook (dashboard + worksheets)
+├── netflix_dataset.xlsx     # Source data (6,234 Netflix titles)
+├── netflix_dashboard.png    # Dashboard screenshot preview
+└── README.md                # Project documentation
 ```
 
 ---
 
-## 🤝 Share & Export
+## Share & Export
 
 ### Create a Packaged Workbook
 
@@ -201,11 +201,11 @@ To share without broken data paths:
 File → Export Packaged Workbook... → Save as .twbx
 ```
 
-> 📦 The `.twbx` format bundles both the workbook and data into a single file.
+> The `.twbx` format bundles both the workbook and data into a single file.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Here's how you can help:
 
@@ -217,7 +217,7 @@ Contributions are welcome! Here's how you can help:
 
 ---
 
-## 📬 Contact
+## Contact
 
 **Developed by Ch Ayushman Patro**
 
